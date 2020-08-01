@@ -4,14 +4,14 @@
 
 .left-content {
     width: 20%;
-    height: 2000px;
+    height: 1150px;
     background-color: rgb(29, 28, 29);
     float: left;
 }
 
 .center-content {
     width: 60%;
-    height: 2000px;
+    height: 1150px;
     background-color: black;
     float: left;
     color: black;
@@ -37,9 +37,14 @@
     
 }
 
+.center-content img:hover {
+    cursor: pointer;
+    
+}
+
 .right-content {
     width: 20%;
-    height: 2000px;
+    height: 1150px;
     background-color:  rgb(29, 28, 29);
     float: left;
 }
@@ -58,4 +63,77 @@
 .text table {
     font-size: 17px;
     line-height: 28px;
+}
+
+/* pada perangkat max-width 1000px */
+@media (max-width:1000px) {
+    .left-content {
+        width: 0%;
+    }
+
+    .center-content {
+        width: 100%;
+    }
+
+    .right-content {
+        width: 0%;
+    }
+
+    .text {
+        padding-top: 20px;
+        padding-left: 95px;
+        color: #ffffff;
+    }
+}
+
+/* pada perangkat max-width 678 */
+@media (max-width:678px) {
+    .left-content {
+        width: 0%;
+        height: 550px;
+    }
+
+    .center-content {
+        width: 100%;
+        height: 950px;
+    }
+
+    .right-content {
+        width: 0%;
+        height: 550px;
+    }
+
+    /* tulisan BIODATA */
+    .center-content h1 {
+        text-align: center;
+        padding-bottom: 50px;
+        color: #ffffff;
+        font-size: 30px;
+
+    }
+
+    /* GAMBAR PP */
+    .center-content img {
+        border-radius: 50%;
+        width: 230px;
+        height: 230px;
+        
+    }
+
+    .text {
+        padding-top: 20px;
+        padding-left: 55px;
+        color: #ffffff;
+    }
+    
+    .text h3{
+        font-family: 'Arial Narrow Bold', sans-serif;
+        font-size: 20px;
+    }
+    
+    .text table {
+        font-size: 13px;
+        line-height: 28px;
+    }
+
 }
