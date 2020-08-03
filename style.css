@@ -94,7 +94,7 @@
     }
 
     .center-content {
-        width: 100%;
+        width: 110%;
         height: 200vh;
     }
 
@@ -122,8 +122,8 @@
 
     .text {
         padding-top: 20px;
-        padding-left: 20px;
-        padding-right: 40px;
+        padding-left: 5px;
+        padding-right: 50px;
         color: #ffffff;
     }
     
@@ -133,7 +133,7 @@
     }
     
     .text table {
-        font-size: 11px;
+        font-size: 10px;
         line-height: 28px;
     }
 
